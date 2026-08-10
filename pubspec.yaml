@@ -1,0 +1,27 @@
+name: lumenclaim
+description: "LumenClaim — draw the line, own the dark. A territory-capture arcade game."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.35.0
+  flame_audio: ^2.10.6
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.5.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/sfx/
+    - assets/audio/music/
